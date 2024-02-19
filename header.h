@@ -3,12 +3,11 @@ using namespace std;
 
 void header()
 {
-    string name = "Deonte Palmer";
-    string city = "Baton Rouge";
-    string state = "Louisiana";
-    string semester_year = "Fall 2021";
-    string major = "Computer Science";
-    string job = "a Software Developer";
+    cout << endl;
 
-    cout << "Hello," << endl << endl << "My name is " << name << ". I am from " << city << ", " << state << ". I enrolled at \nBRCC in " << semester_year << ". " << major << " is my major.\nI plan to work as " << job << " once I have completed my studies!";
+    cout << " Programmer: Deonte Palmer" << endl;
+    cout << " Course Name: Software Design&Programming I (CSCI-1933-M01 CRN: 20281)" << endl;
+    cout << " Program name: Chapter 2 - Program 2" << endl;
+    cout << "Instructor\'s Name: David Sylvester" << endl;
+    cout << " Due date: February 19, 2024" << endl << endl;
 }
